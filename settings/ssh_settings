@@ -3,6 +3,6 @@
 $ ssh-keygen
 $ cd ~/.ssh
 
-# copy this paste to github Settings > SSH keys
+# copy and paste to github Settings > SSH keys
 $ cat id_rsa.pub
 

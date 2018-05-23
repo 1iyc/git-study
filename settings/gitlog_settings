@@ -1,0 +1,10 @@
+# https://coderwall.com/p/euwpig/a-better-git-log
+
+$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+
+# Use like blow
+# less -r for broken charactor error
+# --color for watching log with color in less -r
+
+$ git lg --all --color | less -r
