@@ -1,0 +1,3 @@
+#Before "git checkout (branch) (file)"
+
+git diff (branch) --name-only
