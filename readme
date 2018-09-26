@@ -1,0 +1,6 @@
+# .gitignore not ignoring folder
+
+git rm --cached -r public/
+git add .gitignore
+
+https://stackoverflow.com/questions/39014896/gitignore-not-ignoring-folder
